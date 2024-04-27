@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EC2 Instance Health</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>EC2 Instance Health</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Instance ID</th>
+                <th>CPU Usage (%)</th>
+                <th>Memory Usage (%)</th>
+                <th>Disk Usage (%)</th>
+                <th>Network Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for instance_id, health_info in instance_health.items() %}
+            <tr>
+                <td>{{ instance_id }}</td>
+                <td>{{ health_info['cpu_usage'] }}</td>
+                <td>{{ health_info['memory_usage'] }}</td>
+                <td>{{ health_info['disk_usage'] }}</td>
+                <td>{{ health_info['network_status'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+

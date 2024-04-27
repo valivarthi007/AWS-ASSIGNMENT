@@ -1,0 +1,58 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-415-680
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-415-680
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2024 10:34:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-415-680
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2024 10:39:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-415-680
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2024 10:44:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-415-680
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2024 10:50:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.0.232:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 127-415-680
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 10:55:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 10:55:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 10:55:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 10:55:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 10:59:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 10:59:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 11:00:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 11:00:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 11:00:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 11:01:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 11:02:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 11:04:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 11:05:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 11:05:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:223.186.14.165 - - [27/Apr/2024 11:07:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:150.129.88.77 - - [27/Apr/2024 11:18:05] "GET / HTTP/1.1" 200 -
